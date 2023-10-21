@@ -1,0 +1,79 @@
+<!-- ovo je font face kako ubaciti sa lokala , downlodujes pa storu u css pa onda  nalepis sa nazivom --> @font-face {
+    font-family: 'Roboto Slab', serif; ;
+    src: url("/Quicksand-VariableFont_wght.ttf");
+}
+
+
+.paragraph {
+    font-family: monospace;
+    font-size: 10px;
+    background-color: rgb(237, 145, 25);
+    color: rgba(1, 30, 21, 0.963);
+    color: rgba (0,206,209, 0.5);
+   opacity: 0.5;
+}
+q { 
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.parap2 {
+   
+    font-family: Arial;
+    font-size: 32px;
+    background-color: rgba(50, 65, 65, 0.543);
+
+    color: rgb (123,206,209) ;
+
+}
+q { font-style:italic
+    font-size : 13px;
+    font-family: tahoma;
+
+}
+.third {
+
+    font-size: 145%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', Georgia;
+    background-color: rgb(255, 102, 0);
+     color: #101212;
+}
+
+.oblique {
+    font-family:QvinsBRT;
+
+}   
+
+q {
+    font-style: italic;
+    font-weight: bold;
+    font-family: helvetica;
+
+}
+.homer1 {
+    opacity: 0.319;
+}
+
+.homer2 {
+    background-color: rgba(229, 234, 235, 0.9);        
+}
+.A1 {
+    background-color: aliceblue;
+}
+.A2 {
+    background-color:hotpink;
+}
+.A3 {
+    background-color:green;
+}
+.A4 {
+    background-color:gray;
+}
+.A5 { background-color:darkorange;
+}
+
+q {
+    font-style: normal;
+    font-weight: lighter;
+}
