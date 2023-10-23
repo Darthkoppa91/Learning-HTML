@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+/* border: 20px solid  rgb(41, 143, 239) */
+    padding: 50px;
+}
+
+
+div.prvi {
+    text-align: center;
+    padding: 50px;
+    height: 500px;
+    width: 400px;
+    max-width:300px;
+    max-height:200px;
+    background-color: rgba(237, 237, 107, 0.763);
+    border: 5px thick;
+    border-style: dashed;
+    border-color: red;
+}
+
+
+
+.prvi {
+
+    overflow: hidden;
+}
+
+div.drugi {
+    padding-top: 50px;
+    text-align: center;
+    height: 300px; 
+    width: 600px; 
+    background-color:rgba(237, 237, 107, 0.763);
+    border: 5px solid;
+    border-color: green;
+}  
+.drugi {
+
+    hide {
+        overflow: scroll;
+    }
+}
+.treci {
+
+    background-color: rgba(237, 237, 107, 0.763);
+    border: 5px thick;
+    border-style: dashed;
+    border-color: brown;
+
+}
+
+

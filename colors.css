@@ -1,17 +1,21 @@
-<!-- ovo je font face kako ubaciti sa lokala , downlodujes pa storu u css pa onda  nalepis sa nazivom --> @font-face {
-    font-family: 'Roboto Slab', serif; ;
-    src: url("/Quicksand-VariableFont_wght.ttf");
-}
+/* <!-- ovo je font face kako ubaciti sa lokala , downlodujes pa storu u css pa onda  nalepis sa nazivom  */
+ 
+    
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
 
 
 .paragraph {
+    text-align:left;
+    text-transform: uppercase, underline;
+    letter-spacing: 5px;  
     font-family: monospace;
     font-size: 10px;
     background-color: rgb(237, 145, 25);
     color: rgba(1, 30, 21, 0.963);
     color: rgba (0,206,209, 0.5);
-   opacity: 0.5;
+    opacity: 0.5;
 }
+
 q { 
     
     font-family: 'Courier New', Courier, monospace;
@@ -19,21 +23,32 @@ q {
 }
 
 .parap2 {
-   
-    font-family: Arial;
+
+    text-align: right;
+    text-transform: lowercase;
+    line-height: 200%;
+    text-decoration:line-through;
+    font-family: 'Roboto Slab', serif;;
     font-size: 32px;
     background-color: rgba(50, 65, 65, 0.543);
 
     color: rgb (123,206,209) ;
 
 }
+.parap2:hover{
+    color: green;
+}
 q { font-style:italic
     font-size : 13px;
     font-family: tahoma;
 
 }
+
 .third {
 
+    text-align: center;
+    vertical-align: top;
+    font-style: default;
     font-size: 145%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', Georgia;
     background-color: rgb(255, 102, 0);
@@ -51,21 +66,63 @@ q {
     font-family: helvetica;
 
 }
+/* .table  { 
+    margin-left: auto;
+    margin-right: auto;
+
+    position: center; */
+}
+
 .homer1 {
+   
     opacity: 0.319;
 }
 
 .homer2 {
     background-color: rgba(229, 234, 235, 0.9);        
 }
-.A1 {
-    background-color: aliceblue;
+.tabela {
+    color: default;
+    text-shadow: rgb(41, 118, 195);
+    
+
+
+
+}
+ 
+    
+a {
+    color:red;
+    
+    
+
+}
+.A1L:visited{
+    color: black;
+}
+
+.A1:visited {
+    
+    color:default; 
+    text-shadow: #95e3e3;
+    color: default;
+
+    /* background-color: aliceblue; */
 }
 .A2 {
+    text-shadow: default;
     background-color:hotpink;
 }
-.A3 {
+.A3  {
+    text-shadow: default;
     background-color:green;
+}
+.A3:active {
+    color: blue;
+}
+
+.A3L:active {
+    color:blue;
 }
 .A4 {
     background-color:gray;
@@ -73,7 +130,11 @@ q {
 .A5 { background-color:darkorange;
 }
 
+.A5:hover:hover {
+    color: green;
+ 
+}
 q {
-    font-style: normal;
+    font-style: normal; 
     font-weight: lighter;
 }
