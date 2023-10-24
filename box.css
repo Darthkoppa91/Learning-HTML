@@ -1,21 +1,44 @@
 body {
     text-align: center;
 /* border: 20px solid  rgb(41, 143, 239) */
-    padding: 50px;
+    /* padding: 50px; */
 }
 
-
-div.prvi {
+@font-face {
+    font-family: Golum;
+    src: url(/HobbitonBrushhandhobbitonBrush-WygA.ttf);
+}
+.tittle {
+    font-family: Golum;
+    width: 960px;
     text-align: center;
-    padding: 50px;
+    padding: 50px,0,50px,0;
+    margin: 50px,0,50px,0;
+    background-color: rgb(223, 194, 184);
+    -webkit-box-shadow: -25px 147px 187px -7px rgba(28,25,28,1);
+    -moz-box-shadow: -25px 147px 187px -7px rgba(28,25,28,1);
+    box-shadow: -25px 147px 187px -7px rgba(28,25,28,1);
+    border-radius:2px;
+    color: rgba(18, 6, 6, 0.699);
+    border-radius:30px 10px 45px 30px;
+
+}
+
+.prvi {
+    
+
+    text-align: center;
+    padding: 0px;
     height: 500px;
-    width: 400px;
+    width: 300px;
+    font-family: Golum;
     max-width:300px;
     max-height:200px;
     background-color: rgba(237, 237, 107, 0.763);
     border: 5px thick;
     border-style: dashed;
     border-color: red;
+    display: inline-block;
 }
 
 
@@ -25,14 +48,20 @@ div.prvi {
     overflow: hidden;
 }
 
-div.drugi {
-    padding-top: 50px;
+.drugi {
+    
+    
+    margin:auto;
+    margin-right: 20px;
+    padding-top: 10px;
     text-align: center;
     height: 300px; 
-    width: 600px; 
+    width: 400px; 
     background-color:rgba(237, 237, 107, 0.763);
     border: 5px solid;
     border-color: green;
+    display: inline-block;
+    display: none;
 }  
 .drugi {
 
@@ -41,12 +70,53 @@ div.drugi {
     }
 }
 .treci {
-
+   
+    
+    margin-right: 20px;
+    margin-left: 1px;
+    padding: 0px;
+    width: 200px;
     background-color: rgba(237, 237, 107, 0.763);
     border: 5px thick;
     border-style: dashed;
     border-color: brown;
+    display: inline-block;
+    visibility: hidden;
 
 }
+.box {
+    /* border-image-width :40px ; */
+    border: 1px solid blue ;
+    font-family: Golum;
+    padding: 1px;
+    width: 150px;
+    height:200px;
+    box-sizing: content-box;
+    box-sizing: border-box;
 
 
+
+}
+#unordered {
+    width: 200px;
+    list-style-type: circle;
+    list-style-image: url("https://img.icons8.com/color/48/jack-o-lantern--v1.png");
+}
+
+#unordered2 {
+    width: 200px;
+
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url("https://img.icons8.com/color/48/000000/jack-o-lantern--v1.png");   
+}
+#ordered1 {
+    list-style-type: upper-alpha;
+}
+#ordered2 {
+    list-style-type: lower-roman;
+}
+ul, ol {
+    margin:0 auto;
+    width: fit-content;
+}
