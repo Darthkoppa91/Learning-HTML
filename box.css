@@ -85,9 +85,9 @@ body {
 
 }
 .box {
-    /* border-image-width :40px ; */
+   
     border: 1px solid blue ;
-    font-family: Golum;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 1px;
     width: 150px;
     height:200px;

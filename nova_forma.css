@@ -1,0 +1,65 @@
+body {
+
+    margin: 15px auto;
+    padding: 0 50px 0 50px;
+    width: 450px;
+    background-color: rgb(133, 45, 65);
+    list-style-position: outside;
+    border-spacing: 10px 20px;
+
+}
+
+input {
+
+    width:auto;
+    margin: 5px auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+
+}
+/* 
+.password {
+        margin-right: 32px;
+}
+
+.phone {
+
+        margin-right: 68px;
+} */
+
+form {
+    border:none;
+    background-color: rgb(70, 8, 8);
+    color: antiquewhite;
+    list-style-position: outside;
+    border-spacing: 10px 20px;
+    padding: 25px 50px;
+    font-family: monospace;
+    
+
+}
+
+div {
+
+    display:inline-block;
+}
+
+button {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about {
+
+    vertical-align: top;
+}
