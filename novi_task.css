@@ -1,0 +1,70 @@
+.drugi {
+
+
+    width: 550px;
+    background-color: rgb(206, 203, 203);
+
+
+}
+.tabela {
+    border: 9px solid rgb(207, 139, 38);
+
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family:Arial;
+    width:500px;
+    height: 50px;
+    color: rgb(17, 20, 22);
+    
+    background-color: rgb(207, 139, 38);
+}
+
+.tab1 {
+    
+    left: 15px;
+    bottom:10px;
+    top:3px;
+    background-color: darkgray;
+    
+    
+}
+div {
+
+    background-color: rgb(208, 203, 203);
+    width: 
+
+
+
+} 
+
+.tab2 {
+
+    left: 15px;
+    bottom:10px;
+    top:3px;
+    background-color: darkgray;
+    
+}
+
+.sub {
+    position: relative;
+    /* z-index: 1; */
+    left: 238px;
+    top: -14px;
+    border: solid ;
+    border-color: aliceblue;
+    height:150px;
+    width:250px;
+    background-color:aliceblue ;
+    
+
+
+}
+.sivo {
+    border-collapse: collapse;
+    
+    background-color: darkgray;
+}
+

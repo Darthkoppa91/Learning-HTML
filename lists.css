@@ -28,14 +28,3 @@ tr:hover {
     background-color: coral;
 
 }
-.Head {
-    
-    padding-top: 10px;
-    padding-bottom:10px;
-    border-collapse: collapse;
-    text-align: center;
-    font-family:serif;
-    color: aliceblue;
-    
-    background-color: brown !important;
-}
