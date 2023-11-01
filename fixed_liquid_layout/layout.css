@@ -1,0 +1,52 @@
+body {
+    width: 99%;
+    margin: 40px auto;
+
+
+}
+.main {
+    width: 90%;
+    padding: 25px;
+    justify-content: flex-start;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    align-content: space-around;
+    font-family:  "Arial";
+    font-size: 20px;
+    
+
+
+}
+.main img {
+    width: 140px;
+    background-color: rgb(163, 174, 174);
+    border-radius: 50%;
+
+}
+.underline {
+    font-size: 12px;
+}
+.about {
+
+    width: 44%;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.post  { border-left: 3px solid rgb(6, 53, 81);
+    gap: 20px;
+    width: 45%;;
+    font-family: 'Gill Sans';
+    padding-left: 1rem;
+    justify-content: flex-end;
+    
+
+    
+    
+}
+
+.content{
+    display: flex;
+}
