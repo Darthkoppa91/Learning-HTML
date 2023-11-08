@@ -1,0 +1,23 @@
+:root {
+
+    --bluish: #2c3e50;
+    --greenish: #18bc9c;
+    --text-color:#495057;
+}
+.blue-bg {
+
+    background-color: var(--bluish) !important;
+    color: white;
+}
+.green-bg {
+    background-color: var(--greenish) !important;
+    color: white;
+}
+
+form button {
+    width: fit-content ;
+    background-color: var(--greenish)
+    !important;
+    color: white;
+    border: none !important;
+}
